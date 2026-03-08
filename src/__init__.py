@@ -19,11 +19,15 @@ from .spectroscopy        import doppler_hwhm, lorentz_hwhm, voigt_profile_func,
 from .radiative_transfer  import forward_model, standard_atmosphere_profile, air_mass_factor, column_amount
 from .hitran_model        import hitran_cross_section, SYNTHETIC_CO2_LINES
 from .retrieval           import iterative_retrieval, xco2_from_scaling
+from .monte_carlo         import run_monte_carlo,plot_noise_ensemble,plot_xco2_sweep,plot_random_scene,plot_snr_sensitivity
+
+
 
 __all__ = [
     "optical_depth", "transmittance", "radiance", "number_density_from_pT",
     "doppler_hwhm", "lorentz_hwhm", "voigt_profile_func", "absorption_cross_section",
     "forward_model", "standard_atmosphere_profile", "air_mass_factor", "column_amount",
     "hitran_cross_section", "SYNTHETIC_CO2_LINES",
-    "iterative_retrieval", "xco2_from_scaling",
+    "iterative_retrieval", "xco2_from_scaling", 
+    "run_monte_carlo", "plot_noise_ensemble", "plot_xco2_sweep", "plot_random_scene", "plot_snr_sensitivity"
 ]
