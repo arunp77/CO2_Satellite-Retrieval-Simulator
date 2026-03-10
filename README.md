@@ -346,13 +346,11 @@ Possible future improvements include:
 
 ---
 
-# Author
+# Author introduction
 
-Arun Kumar Pandey
-Remote sensing scientist and data engineer working on Earth observation systems.
+I am a remote sensing scientist and data engineer working on Earth observation systems.
 
-GitHub
-[https://github.com/arunp77](https://github.com/arunp77)
+[Arun's portfolio:](https://arunp77.github.io/)
 
 ---
 
