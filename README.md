@@ -97,10 +97,10 @@ $$
 
 where
 
-* \(I_\nu\) : spectral radiance
-* \(\kappa_\nu\) : absorption coefficient
-* \(j_\nu\) : emission term
-* \(s\) : path length
+* $I_\nu$ : spectral radiance
+* $\kappa_\nu$ : absorption coefficient
+* $j_\nu$ : emission term
+* $s$ : path length
 
 For solar backscatter measurements in the shortwave infrared, thermal emission is typically negligible. The equation simplifies to pure absorption.
 
