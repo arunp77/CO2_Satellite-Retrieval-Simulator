@@ -96,10 +96,10 @@ $$
 
 where
 
-* $I_\nu$ : spectral radiance
-* $\kappa_\nu$ : absorption coefficient
-* $j_\nu$ : emission term
-* $s$ : path length
+* \(I_\nu\) : spectral radiance
+* \(\kappa_\nu\) : absorption coefficient
+* \(j_\nu\) : emission term
+* \(s\) : path length
 
 For solar backscatter measurements in the shortwave infrared, thermal emission is typically negligible. The equation simplifies to pure absorption.
 
@@ -115,9 +115,9 @@ $$
 
 where
 
-* $I_{\nu,0}$ : incident radiation
-* $I_\nu$ : transmitted radiation
-* $\tau_\nu$ : optical depth
+* \(I_{\nu,0}\) : incident radiation
+* \(I_\nu\) : transmitted radiation
+* \(\tau_\nu\) : optical depth
 
 ---
 
@@ -131,9 +131,9 @@ $$
 
 where
 
-* $ \sigma_\nu $ : molecular absorption cross section
-* $ n(s) $ : molecular number density
-* $ ds $ : path element
+* \( \sigma_\nu \) : molecular absorption cross section
+* \( n(s) \) : molecular number density
+* \(ds \) : path element
 
 Optical depth depends on atmospheric composition, pressure, temperature, and photon path length.
 
@@ -242,8 +242,8 @@ $$
 
 where
 
-* $S_i$ : line strength
-* $\phi_i(\nu)$ : Voigt profile
+* \(S_i\) : line strength
+* \(\phi_i(\nu)\) : Voigt profile
 
 ---
 
