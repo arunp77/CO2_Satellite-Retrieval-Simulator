@@ -196,23 +196,23 @@ Everything comes full circle:
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │  1. STATE YOUR PRIOR BELIEF                                 │
-│     "Before data, I think ξ ≈ 1.0  ± 0.10"                 │
-│     → p(ξ) = Gaussian(1.0, 0.10²)                          │
+│     "Before data, I think ξ ≈ 1.0  ± 0.10"                  │
+│     → p(ξ) = Gaussian(1.0, 0.10²)                           │
 │                                                             │
 │  2. WRITE DOWN THE LIKELIHOOD                               │
 │     "If ξ were the truth, how likely is this observation?"  │
-│     → p(y|ξ) = Gaussian(F(ξ), σ_noise²)                    │
+│     → p(y|ξ) = Gaussian(F(ξ), σ_noise²)                     │
 │                                                             │
 │  3. APPLY BAYES' THEOREM                                    │
 │     posterior ∝ likelihood × prior                          │
-│     → p(ξ|y) ∝ p(y|ξ) · p(ξ)                               │
+│     → p(ξ|y) ∝ p(y|ξ) · p(ξ)                                │
 │                                                             │
 │  4. FIND THE PEAK (MAP estimate)                            │
-│     Minimise cost function J(ξ) = −2 ln[p(ξ|y)]            │
-│     → This gives ξ̂  (the best estimate)                    │
+│     Minimise cost function J(ξ) = −2 ln[p(ξ|y)]             │
+│     → This gives ξ̂  (the best estimate)                     │
 │                                                             │
-│  5. MEASURE THE WIDTH (posterior uncertainty)                │
-│     Curvature of J at the minimum → σ_post                 │
+│  5. MEASURE THE WIDTH (posterior uncertainty)               │
+│     Curvature of J at the minimum → σ_post                  │
 │     → This gives the error bar                              │
 └─────────────────────────────────────────────────────────────┘
 ```
